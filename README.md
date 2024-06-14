@@ -1,1 +1,1 @@
-a sample to tackle SharedPreference with resource xml configuration file
+PreferenceActivity : a sample to tackle SharedPreference with resource xml configuration file
