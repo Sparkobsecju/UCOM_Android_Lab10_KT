@@ -7,4 +7,16 @@
         android:summaryOff="temporary"
         android:summaryOn="regular"
         android:title="Employee status" />
+    <ListPreference
+        android:entries="@array/locations"
+        android:entryValues="@array/codes"
+        android:key="location"
+        android:summary="Attend class default location"
+        android:title="Default Location" />
+    <EditTextPreference
+        android:dialogMessage="Alphanumeric, 8-30 characters"
+        android:dialogTitle="Input Username"
+        android:key="username"
+        android:summary="use when login to system"
+        android:title="saved username" />
 </PreferenceScreen>
